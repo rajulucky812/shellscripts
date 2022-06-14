@@ -1,7 +1,7 @@
 #!/bin/bash
 #Purpose: For loop example
 
-for server in `cat /scripts/servers`
+for server in `cat /opt/servers.txt`
 do
 ping -c 1 $server > /tmp/ping
 valid=`echo $?`
