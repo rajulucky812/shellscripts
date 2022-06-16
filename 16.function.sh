@@ -2,7 +2,7 @@
 #Purpose: Function
 
 function Welcome () {
-echo "SrimanIT courses $1"
+echo "HI Hello courses $1"
 }
 
 #calling Fuction
